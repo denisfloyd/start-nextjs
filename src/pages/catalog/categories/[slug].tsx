@@ -1,4 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from 'next';
+import { route } from 'next/dist/next-server/server/router';
 import { useRouter } from 'next/router';
 
 interface IProduct {
@@ -12,6 +13,10 @@ interface CategoryProps {
 
 export default function Category({ products }: CategoryProps) {
   const router = useRouter(); 
+
+  if(router.isFallback) {
+    return <p>Carregando...</p>
+  }
 
   return (
 
@@ -45,7 +50,7 @@ export const getStaticPaths: GetStaticPaths = async() => {
 
   return {
     paths,
-    fallback: false,
+    fallback: true,
   }
 };
 
