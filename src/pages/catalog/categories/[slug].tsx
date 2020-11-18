@@ -19,10 +19,10 @@ export default function Category({ products }: CategoryProps) {
       <h1>{router.query.slug}</h1>
 
       <ul>
-          {products.map(recommendedProduct => {
+          {products.map(products => {
             return (
-              <li key={recommendedProduct.id}>
-                {recommendedProduct.title}
+              <li key={products.id}>
+                {products.title}
               </li>
             )
           })}
