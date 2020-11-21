@@ -20,7 +20,7 @@ export default function SEO({
 
   return (
     <Head>
-      <title>{{pageTitle}}</title>
+      <title>{pageTitle}</title>
 
       { description && <meta name="description" content={description}/> }
       { pageImage && <meta name="image" content={pageImage}/> }
