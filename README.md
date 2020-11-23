@@ -18,10 +18,13 @@
 </p>
 
 <div align="center">
-  <sub>Pink Floyd's Discography Player project. Built with ❤︎ by
+  <sub>Start Next Js. Built with ❤︎ by
     <a href="https://github.com/denismend">Denis Ladeira</a>
   </sub>
 </div>
+<br/>
+
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
