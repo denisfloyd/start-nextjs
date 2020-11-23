@@ -1,4 +1,4 @@
-# START NEXT JS
+# START NEXT.JS
 
 <p align="center">
    <a href="https://linkedin.com/in/denis-ladeira-814365115/">
@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  Next Js First Project
+  Next.js First Project
 </p>
 
 <div align="center">
-  <sub>Start Next Js. Built with ❤︎ by
+  <sub>Start Next.js. Built with ❤︎ by
     <a href="https://github.com/denismend">Denis Ladeira</a>
   </sub>
 </div>
@@ -48,8 +48,8 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 # :rocket: Features
 
-* Simple project developed using Next Js framework for construct Server side rendering pages.
-* This project show the mainly funcionalities from Next JS
+* Simple project developed using Next.js framework for construct Server side rendering pages.
+* This project show the mainly funcionalities from Next.js
 
 # :construction_worker: How to run
 ```bash
